@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+    .menu_icon{
+        position: absolute;
+        left: 50%;
+        bottom: 16px;
+    }
+    #logo{
+        left:0;
+    }
+    #mainarea{margin-left: 57px;
+        margin-right: 46px;}
+}
+@media (max-width: 550px) {
+    #head-l , #head-r {background:none;}
+    #footer{margin:0px 38px;
+    ul{padding:0;}
+    }
+}

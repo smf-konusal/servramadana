@@ -1,0 +1,198 @@
+#main_menu{
+	margin-left: 211px;
+	margin-top: -37px;
+}
+.up_contain > div {
+    border-right: 1px solid var(--color-primary);
+	padding: 5px;
+	&:last-child{border:none;}
+}
+div.cat_bar, .title_bar{
+	background: url(../images/theme/serv_rmdan_10.gif) 0 100% repeat-x;
+	position:relative;
+	height:47px;
+	h3 {
+		position:absolute;
+		left:143px;
+	}
+	&::before , &::after{
+		content:"";
+		width: 134px;
+		height: 47px;
+		display:block;
+		position: absolute;
+		top:0px;
+	}
+	&::before{
+		background: url(../images/theme/serv_rmdan_08.gif) 0 100% no-repeat;
+		left:0;
+	}
+	&::after{
+		background: url(../images/theme/serv_rmdan_11.gif) 100% 100% no-repeat;
+		right:0;
+	}
+}
+.cat_bar_alt{
+	background: url(../images/theme/serv_rmdan_18.gif) 0 100% repeat-x;
+	position:relative;
+	height: 21px;
+	&::before , &::after{
+		content:"";
+		width: 134px;
+		height: 21px;
+		display:block;
+		position: absolute;
+		top:0px;
+	}
+	&::before{
+		background: url(../images/theme/serv_rmdan_16.gif) 0 100% no-repeat;
+		left:0;
+	}
+	&::after{
+		background: url(../images/theme/serv_rmdan_19.gif) 100% 100% no-repeat;
+		right:0;
+	}
+}
+/*Edit Theme*/
+h3.titlebg{
+	background: none;
+	padding:0;
+}
+#upshrink_stats p.inline{
+	background:var(--color-default-lighte)
+}
+#topic_header > .info {
+    position: absolute;
+    left: 143px;
+}
+.title_bar {
+    padding-top: 10px;
+}
+#footer ul {
+    padding-top: 41px;
+	li.copyright{
+		padding-left:60px;
+	}
+}
+
+/*Edit Theme Finish*/
+.toolbar {
+	background: url(../images/theme/serv_rmdan_18.gif) 0 100% repeat-x;
+}
+.tool-l {
+	height: 23px;
+	background: url(../images/theme/serv_rmdan_19.gif) 100% 100% no-repeat;
+}
+.tool-r {
+	background: url(../images/theme/serv_rmdan_16.gif) 0 100% no-repeat;
+}
+
+#logo {
+	position: absolute;
+	top: 1px;
+	left: 278px;
+	display: block;
+	width: 350px;
+	height: 166px;
+	cursor: pointer;
+	background: url(../images/theme/logo.gif) no-repeat;
+}
+
+#mainarea {
+	 margin-left: 75px;
+	 margin-right: 75px;
+	 position: relative;
+	 overflow: hidden;
+	 background: #EBE0C0;
+}
+
+#header {
+	 position: relative;
+	 height: 243px;
+	 overflow: hidden;
+	 background: #530000 url(../images/theme/img/serv_rmdan_orta.gif) 0 0 repeat-x;
+}
+#head-r {
+	 height: 243px;
+	 background: url(../images/theme/img/servsag.gif) 100% 0 no-repeat;
+}
+#head-l {
+	 background: url(../images/theme/img/servsol.gif) 0 0 no-repeat;
+}
+
+#mainsag {
+
+	 background: url(../images/theme/img/serv_rmdan_22.gif) 100% 0 repeat-y;
+}
+#mainsol {
+	 background: url(../images/theme/img/serv_rmdan_21.gif) 0 0 repeat-y;
+}
+#footer-rmd {
+	 background: url(../images/theme/serv_rmdan_26.gif) 0 100% repeat-x;
+}
+#foot-r {
+	 height: 94px;
+	 background: url(../images/theme/serv_fot_sag.gif) 100% 100% no-repeat;
+}
+#foot-l {
+	 background: url(../images/theme/serv_rmdan_25.gif) 0 100% no-repeat;
+}
+
+
+#headim-r {
+	 height: 243px;
+	 background: url(../images/theme/img/serv_rmdan_22.gif) 100% 0 repeat-y;
+}
+#headim-l {
+	 background: url(../images/theme/img/serv_rmdan_21.gif) 0 0 repeat-y;
+}
+#toolbar2 {
+	 background: url(../images/theme/img/serv_rmdan_18.gif) 0 100% repeat-x;
+}
+#tool2-l {
+	 height: 23px;
+	 background: url(../images/theme/img/serv_rmdan_tr.gif) 100% 100% no-repeat;
+}
+#tool2-r {
+	 background: url(../images/theme/img/serv_rmdan_tl.gif) 0 100% no-repeat;
+}
+.alt {
+	 background: url(../images/theme/serv_rmdan_100.gif) 0 100% repeat-x;
+}
+.alt-l {
+	 height: 47px;
+	 background: url(../images/theme/serv_rmdan_11.gif) 100% 100% no-repeat;
+}
+.alt-r {
+	 background: url(../images/theme/serv_rmdan_08.gif) 0 100% no-repeat;
+}
+#blok {
+	 background: url(../images/theme/img/serv_rmdan_fw.gif) 0 100% repeat-x;
+}
+#blok-l {
+	 height: 23px;
+	 background: url(../images/theme/img/serv_rmdan_fr.gif) 100% 100% no-repeat;
+}
+#blok-r {
+	 background: url(../images/theme/img/serv_rmdan_fl.gif) 0 100% no-repeat;
+}
+#alt {
+	 background: url(../images/theme/serv_rmdan_100.gif) 0 100% repeat-x;
+}
+#alt-l {
+	 height: 47px;
+	 background: url(../images/theme/serv_rmdan_11.gif) 100% 100% no-repeat;
+}
+#alt-r {
+	 background: url(../images/theme/serv_rmdan_08.gif) 0 100% no-repeat;
+}
+#toolbar {
+	 background: url(../images/theme/serv_rmdan_18.gif) 0 100% repeat-x;
+}
+#tool-l {
+	 height: 23px;
+	 background: url(../images/theme/serv_rmdan_19.gif) 100% 100% no-repeat;
+}
+#tool-r {
+	 background: url(../images/theme/serv_rmdan_16.gif) 0 100% no-repeat;
+}
