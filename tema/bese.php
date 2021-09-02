@@ -53,7 +53,7 @@ class Bese {
 			$colors["--$color_name-s"] = $hsl[1] * 100 . '%';
 
 			if(Bese::current_mode() == 'dark'){
-				$colors["--$color_name-l"] = ($hsl[2] * 100)-15 . '%';
+				$colors["--$color_name-l"] = ($hsl[2] * 100)-35 . '%';
 			}else{
 				$colors["--$color_name-l"] = $hsl[2] * 100 . '%';
 			}

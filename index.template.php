@@ -215,7 +215,7 @@ function template_body_above()
    <div id="header">
 	<div id="head-l">
 	 <div id="head-r">
-		<a href="'.$scripturl.'" title=""><span id="logo"> </span></a>';
+		<a id="logo" href="', $scripturl, '">', empty($context['header_logo_url_html_safe']) ? '<img src="' . $settings['images_url'] . '/theme/logo.gif" alt="' . $context['forum_name_html_safe'] . '">' : '<img src="' . $context['header_logo_url_html_safe'] . '" alt="' . $context['forum_name_html_safe'] . '">' ,'</a>';
 	echo '
 		<a class="menu_icon mobile_user_menu"></a>
 	  </div>		 
